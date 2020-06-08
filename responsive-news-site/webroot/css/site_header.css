@@ -50,6 +50,9 @@ body > header > p > a > span {
 
   body > header {
     padding: 1.25rem;
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;*/
   }
-
 }
