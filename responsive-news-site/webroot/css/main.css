@@ -1,3 +1,19 @@
 main {
   padding: 0;
 }
+@media (min-width: 1130px){
+  main{
+    /*display: grid;
+    grid-template-columns: repeat(2 1fr);*/
+  }
+  #section_featured {
+    float: left;
+  }
+  
+  #section_more_news{
+    display: grid;
+  }
+  #section_more_news > header{
+    padding-inline-start: 9rem;
+  }
+}

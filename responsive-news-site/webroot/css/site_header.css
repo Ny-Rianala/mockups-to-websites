@@ -45,10 +45,11 @@ body > header > p > a > span {
   /* Let's hide the menu icon and the profile link from the header */
   body > header > label,
   body > header > p {
-    display: flex;
+    display: none;
   }
 
   body > header {
     padding: 1.25rem;
   }
 }
+
