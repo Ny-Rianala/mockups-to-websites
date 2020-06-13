@@ -60,10 +60,25 @@ body > footer a {
 }
 
 @media(min-width: 768px){
-  footer{
+  footer {
     display: grid;
   }
-  .links_site{
-    grid-column: ;
+
+  h2{
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+
+  .links_site {
+    grid-row: 1;
+    grid-column: 2 / 5;
+  }
+  .links_social{
+    grid-row: 3;
+    grid-column: 4 / 5;
+  }
+  .form_subscribe{
+    grid-row: 3;
+    grid-column: 1 / 2 ;
   }
 }
