@@ -3,15 +3,15 @@ main {
 }
 @media (min-width: 1130px){
   main{
-    /*display: grid;
-    grid-template-columns: repeat(2 1fr);*/
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
   }
   #section_featured {
-    float: left;
+    grid-column: 1 / 3;
   }
   
   #section_more_news{
-    display: grid;
+    grid-column: 1 / 3;
   }
   #section_more_news > header{
     padding-inline-start: 9rem;
